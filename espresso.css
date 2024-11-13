@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+    margin: 0;
+}
+
+/* Fixed Header Styling */
+header {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 2px solid #f5a623;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure header stays above content */
+}
+
+/* Header Links */
+a {
+    color: #f5a623;
+    text-decoration: none;
+}
+
+nav {
+    width: 90%;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 2rem;
+}
+
+ul a {
+    border-bottom: 2px solid transparent;
+    color: #f5a623;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+ul a:hover {
+    border-bottom-color: #f5a623;
+}
+
+/* Cart Icon Styling */
+.cart-container {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #f5a623;
+    background-color: #1f1f1f;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+#cart-counter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.fa-shopping-cart {
+    font-size: 1.5rem;
+}
+
+/* Main Content Section */
+.main-section {
+    padding-top: 10rem; /* Add enough space to avoid header overlap */
+    margin: 0 1rem;
+}
+
+/* Section Styling */
+.section-1__card-main-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-1__card {
+    background-color: #1f1f1f;
+    padding: 2rem;
+    box-shadow: 0 1rem 3rem rgba(182, 136, 52, 0.2);
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    width: 30%;
+}
+
+.section-1__coffee-descp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1__coffee-descp h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.section-1__coffee-descp p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f5a623;
+}
+
+.section-1__card p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.add-to-cart-btn {
+    margin-top: 1rem;
+    background-color: #f5a623;
+    color: #1f1f1f;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #d18e1e;
+}
