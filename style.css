@@ -28,7 +28,7 @@ body {
 }
 
 .container:hover {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), url('images/cof.webp');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), url('cof.webp');
 }
 
 a {
